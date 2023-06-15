@@ -8,7 +8,7 @@ app.url_map.strict_slashes = False
 @app.route('/airbnb-onepage/', strict_slashes=False)
 def index():
     """Returns the content of the /airbnb-onepage/ route."""
-    return 'This is the Airbnb One Page application.'
+    return 'Hello HBNB!'
 
 
 if __name__ == '__main__':
